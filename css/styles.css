@@ -1,0 +1,98 @@
+/**
+ * Copyright © 2009-2017 Lê Duy Khoa. All rights reserved.
+ * Mail: leduykhoa060690@gmail.com
+ * Skype: leduykhoa060690
+ * Website: web-fast.com
+ * Mobile: +84973421508
+ * Date: 2018/05/03
+ * Time: 14:18
+ */
+
+
+body {
+    min-width: 320px;
+    color: #98a1b1;
+    background: #243963;
+}
+
+.bg-light {
+    background-color: #1f3053 !important;
+}
+
+.coin-header {
+    max-height: 2.6em;
+    overflow: hidden;
+}
+
+.coin-header .block-item .bottom {
+    color: #fff;
+}
+
+.coin-header .block-item .bottom span {
+    color: #5cca54;
+}
+
+.coin-header .btn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 0;
+    margin-bottom: 1.6em;
+    display: none;
+}
+
+.coin-header.coin-header-mobile .btn {
+    display: inline-block;
+}
+
+.coin-header .btn.focus,
+.coin-header .btn:focus {
+    box-shadow: none;
+}
+
+.coin-header .btn .fas {
+    float: left;
+}
+
+.coin-header .btn .fa-sort-up {
+    display: none;
+}
+
+.coin-header.coin-header-mobile-active .btn .fa-sort-up {
+    display: block;
+}
+
+.coin-header.coin-header-mobile-active .btn .fa-sort-down {
+    display: none;
+}
+
+.coin-header.coin-header-mobile-active {
+    max-height: inherit;
+}
+
+.form-inline {
+    position: relative;
+    overflow: visible;
+}
+
+.form-inline .form-control{
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: -20px;
+    z-index: 1;
+    background: #243963;
+    border:1px solid #243963;
+    color:#fff;
+    min-width: 22em;
+}
+.form-inline .btn {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: -20px;
+    background: #344a78;
+    border:1px solid #344a78;
+    color: #fff;
+    z-index: 2;
+}
